@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+tfplan
+.terraform.lock.hcl
+
+# Node
+node_modules/
+npm-debug.log
+
+# Environment files
+.env
+.env.local
+*.env
+
+# AWS
+.aws/
+
+# OS
+.DS_Store
+*.swp
+
+# IDE
+.vscode/
+.idea/
