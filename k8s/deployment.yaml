@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-devops-app
-        image: IMAGE_PLACEHOLDER
+        image: 140295272516.dkr.ecr.ap-south-1.amazonaws.com/my-devops-app:fa90c4444d55c17101b220e011430d6c18d1787f
         ports:
         - containerPort: 3000
         env:
